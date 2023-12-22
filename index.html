@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .bg {
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            pointer-events: none;
+            background: url(img/bg.jpg) #444 center/cover;
+        }
+
+        body {
+            margin: 8px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .bio {
+            margin: 100px auto;
+            width: 600px;
+            max-width: 100%;
+            border-radius: 16px;
+            background: linear-gradient(90deg,#fff, transparent, #fff);
+            overflow: hidden;
+        }
+
+        .bio-header {
+            color: #fff;
+            background: linear-gradient(45deg, #d0d0e1, #232f62, #6cbee4, #5680ce, #141523, #4779a9);
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 16px;
+        }
+
+        .bio-wrapper {
+            min-height: 400px;
+        }
+
+        .bio-avt {
+            width: 200px;
+            max-width: 100%;
+            border-radius: 50%;
+            margin-bottom: 16px;
+        }
+
+        .bio-link {
+            background: #0002;
+            padding: 8px 0;
+            margin: 8px;
+            font-size: 2rem;
+            display: block;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+
+        .bio-link:hover {
+            background: #0004;
+        }
+
+        .bio-icon {
+            margin-right: 8px;
+        }
+
+        .bio-footer {
+            background: #f4f4f4;
+        }
+
+        .copyright {
+            padding: 8px 0;
+            font-family: 'Courier New', Courier, monospace;
+            color: #444;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        @media (max-width: 800px) {
+            .bio {
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg"></div>
+    <div class="bio">
+        <div class="bio-header">
+            <img src="img/avt.jpg" alt="" class="bio-avt">
+            <h1 class="bio-name">hnp</h1>
+            <h2 class="bio-desc">I'm developer</h2>
+        </div>
+        <div class="bio-wrapper">
+            <ul class="bio-list">
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+                <li class="bio-item"><a href="#" class="bio-link"><i class="bio-icon fab fa-github"></i>item</a></li>
+            </ul>
+        </div>
+        <div class="bio-footer">
+            <div class="copyright">© NDTEAM 2024</div>
+        </div>
+    </div>
+</body>
+</html>
